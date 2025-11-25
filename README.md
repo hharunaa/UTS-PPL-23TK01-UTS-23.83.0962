@@ -1,5 +1,7 @@
-# UTS-PPL-23TK01-UTS-23.83.0962
+# UTS-PPL-23TK01-UTS
 UTS Pemrograman Python Lanjut
+Muhammad Nur Huda
+23.83.0962
 
 # 🔄 Terminal ZigZag Automation Program  
 **Python Animation with Adaptive Behavior**
@@ -67,4 +69,4 @@ Gerakan maju–mundur akan terlihat jelas saat dijalankan di terminal.
 Pastikan Python sudah terpasang:
 
 ```bash
-python nama_file.py
+piton_0962.py
