@@ -1,72 +1,87 @@
-# UTS-PPL-23TK01-UTS
-UTS Pemrograman Python Lanjut
+<div align="center">
 
-Muhammad Nur Huda_23.83.0962
+# 🔄 Terminal ZigZag Automation  
+### Adaptive Animated Text System — Python UTS Project  
 
-# 🔄 Terminal ZigZag Automation Program  
-**Python Animation with Adaptive Behavior**
-
-Program ini merupakan implementasi animasi terminal sederhana yang bergerak bolak-balik (zigzag).  
-Walaupun dasar idenya sangat kecil, proyek ini dikembangkan menjadi versi yang lebih cerdas dengan sejumlah mekanisme otomatis yang membuat animasi tampak “hidup”.
-
-Seluruh otomatisasi terjadi tanpa input pengguna setelah program berjalan — sehingga animasi dapat menyesuaikan dirinya terhadap kondisi tertentu.
+**Muhammad Nur Huda — 23.83.0962**  
+**UTS Pemrograman Python Lanjut**
 
 ---
 
-## 🧠 Konsep Utama
+## 🏷️ Badges
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Automation](https://img.shields.io/badge/Automation-Enabled-green)
+![Platform-Terminal](https://img.shields.io/badge/Platform-Terminal-black)
+![License-Free](https://img.shields.io/badge/License-Free-lightgrey)
 
-Alih-alih hanya mencetak teks bergerak, program ini memodifikasi beberapa aspek animasi secara otomatis:
+<br>
 
-1. **Kecepatan berubah secara dinamis**  
-   Jumlah jeda antar-frame tidak konstan. Program memanfaatkan informasi waktu dan parameter internal untuk mengatur tempo animasi.
+<img src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/terminal.svg" width="60">
 
-2. **Karakter animasi dapat berganti otomatis**  
-   Simbol yang bergerak tidak statis. Pola teks dapat berubah berdasarkan kondisi tertentu (misal pergantian arah).
-
-3. **Batas gerakan tidak tetap**  
-   Panjang langkah zig-zag dapat berubah selama program berjalan, sehingga jalurnya tidak selalu sama di setiap iterasi.
-
-Tujuannya adalah membuat perilaku animasi lebih variatif, lebih fleksibel, dan terlihat lebih dinamis dibanding versi dasar.
+</div>
 
 ---
 
-## ⚙️ Ringkasan Fitur Otomatis
+# 🧩 Deskripsi Singkat  
+**Terminal ZigZag Automation** adalah animasi teks bergerak berbasis Python yang dilengkapi berbagai mekanisme otomatis.  
+Setelah dijalankan, animasi akan mengatur dirinya sendiri: kecepatan, pola karakter, warna, batas gerak, hingga mode siang–malam.
 
-Berikut fitur yang diterapkan di dalam program:
-
-### 1. **Dynamic Speed Controller**
-Program mengubah durasi `sleep()` secara otomatis.  
-Faktor pemicunya dapat berasal dari waktu sistem atau parameter internal seperti jumlah iterasi.
-
-### 2. **Auto Pattern Rotation**
-Karakter yang bergerak bisa berubah dengan sendirinya.  
-Saat terjadi pergantian arah (kiri ➜ kanan atau sebaliknya), sistem memilih pola teks lain dari daftar yang tersedia.
-
-### 3. **Adaptive Boundary Logic**
-Rentang maksimum gerakan zig-zag dapat berubah selama animasi berlangsung.  
-Ini membuat panjang langkah kiri–kanan tidak monoton dan lebih acak.
+Tujuannya: membuat animasi terminal yang **hidup, adaptif, tidak monoton**, dan menyenangkan untuk diamati.
 
 ---
 
-## 🖥 Contoh Output  
-![Bukti](bukti%20ss%200962.png)
+# ⚙️ Fitur Utama
 
-Contoh animasi yang bisa ditampilkan:
+### ⭐ 1. Dynamic Speed Controller  
+- Kecepatan berubah otomatis mengikuti runtime & pola sinus.  
+- Mendukung Power Saver Mode & High Performance Mode.
 
-    ********
-   ********
-  ###########
- ***************
-=======
+### ⭐ 2. Auto Pattern Rotation  
+- Pola berganti otomatis (********, ######, ======, >>>>>>, <<<<<<).  
+- Pergantian dapat terjadi saat memantul atau setiap beberapa siklus.
 
+### ⭐ 3. Adaptive Boundary Movement  
+- Lebar zigzag tidak tetap → jalur bergerak berubah secara otomatis.
 
-Gerakan maju–mundur akan terlihat jelas saat dijalankan di terminal.
+### ⭐ 4. Rainbow Color Cycling  
+- Menggunakan ANSI color codes untuk menghasilkan efek pelangi.
+
+### ⭐ 5. Day–Night Mode Automation  
+- 06:00–18:00 → terang & cepat  
+- 18:00–06:00 → gelap & lebih lambat
+
+### ⭐ 6. ASCII & Dynamic Text Support  
+- Bisa menampilkan teks input user.  
+- Mendukung big ASCII art (pyfiglet).
+
+### ⭐ 7. Auto Logging & Auto Recovery  
+- Log disimpan otomatis.  
+- Error kecil di-recover otomatis tanpa menghentikan program.
 
 ---
 
-## ▶️ Menjalankan Program
+# 🖥️ Tampilan Output
 
-Pastikan Python sudah terpasang:
+Tambahkan screenshot dengan nama:
+
+**`bukti ss 0962.png`**
+
+
+Contoh pola animasi (ilustrasi):
+
+********
+
+
+
+---
+
+# ▶️ Menjalankan Program
+
+Pastikan Python sudah terinstall.  
+
+Jalankan:
 
 ```bash
 piton_0962.py
+
