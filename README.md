@@ -65,12 +65,16 @@ Tujuannya: membuat animasi terminal yang **hidup, adaptif, tidak monoton**, dan 
 
 Tambahkan screenshot dengan nama:
 
-**`bukti ss 0962.png`**
+**`![Bukti](bukti%20ss%200962.png)`**
 
 
 Contoh pola animasi (ilustrasi):
 
 ********
+########
+========
+>>>>>>  
+<<<<<<
 
 
 
