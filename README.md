@@ -17,7 +17,6 @@
 
 <br>
 
-<img src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/terminal.svg" width="60">
 
 </div>
 
