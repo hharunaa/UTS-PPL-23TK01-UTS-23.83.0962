@@ -47,7 +47,7 @@ Ini membuat panjang langkah kiri–kanan tidak monoton dan lebih acak.
 ---
 
 ## 🖥 Contoh Output  
-[](bukti%20ss%200962.png)
+![Bukti]("bukti ss 0962.png")
 
 Contoh animasi yang bisa ditampilkan:
 
