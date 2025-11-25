@@ -63,19 +63,20 @@ Tujuannya: membuat animasi terminal yang **hidup, adaptif, tidak monoton**, dan 
 
 # 🖥️ Tampilan Output
 
-Tambahkan screenshot dengan nama:
+Tambahkan screenshot:
 
-**`![Bukti](bukti%20ss%200962.png)`**
+![Bukti](bukti%20ss%200962.png)
 
 
 Contoh pola animasi (ilustrasi):
 
+```bash
 ********
 ########
 ========
 >>>>>>  
 <<<<<<
-
+```
 
 
 ---
@@ -88,4 +89,5 @@ Jalankan:
 
 ```bash
 piton_0962.py
+```
 
